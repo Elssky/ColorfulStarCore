@@ -3,7 +3,16 @@
 > Source code for the Paper: "Colorful *h*-star Core Decomposition"
 
 > The default graph coloring algorithm: **Degree**
+## Data preprocess
 
+```
+$ cd ./Preprocess/
+$ g++ -o prec Prec_data.cpp Prec_data.h
+```
+### To run
+```
+./prec ../dataset/DBLP.txt
+```
 ## Structure
 - **The Colorful h-star Core Decomposition**
   - *ColorfulStarCoreDecomposition*
