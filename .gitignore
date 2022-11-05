@@ -340,7 +340,7 @@ ASALocalRun/
 healthchecksdb
 
 # txt file
-*.txt
+# *.txt
 
 # vs project
 *.sln
